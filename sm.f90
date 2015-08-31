@@ -23,7 +23,7 @@
 
     ! Body of sm
     
-	num = 1
+    num = 1
      
     F: do i = 2, 1000
       	n = i - 1
@@ -32,7 +32,7 @@
         	if(n == 2) then
          		sn(num) = i
          		num = num + 1
-		 		exit my
+		 	exit my
         	end if
          	n = n - 1
          	cycle my
